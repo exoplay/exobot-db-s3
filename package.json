@@ -1,8 +1,8 @@
 {
   "name": "@exoplay/exobot-db-s3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "exobot save-db-to-s3 functions",
-  "main": "index.js",
+  "main": "s3.js",
   "scripts": {
     "test": "blueprints -t",
     "build": "blueprints -p",
