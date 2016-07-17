@@ -1,6 +1,6 @@
 {
   "name": "@exoplay/exobot-db-s3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "exobot save-db-to-s3 functions",
   "main": "s3.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "aws-sdk": "^2.4.7"
   },
   "peerDependencies": {
-    "@exoplay/exobot": "~1.0.0"
+    "@exoplay/exobot": "~1.0.0",
+    "babel-polyfill": "~6.9.1"
   }
 }

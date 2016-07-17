@@ -27,6 +27,8 @@ const Bot = new Exobot(BOT_NAME, {
 Creating a bucket, access_key, and secret_access_key is an exercise in
 frustration. Sorry.
 
+You may also need to include "babel-polyfill" for generator support.
+
 ## License
 
 MIT licensed. Copyright 2016 Exoplay, LLC. See LICENSE file for more details.
