@@ -1,5 +1,5 @@
 {
-  "name": "exobot-db-s3",
+  "name": "@exoplay/exobot-db-s3",
   "version": "0.0.1",
   "description": "exobot save-db-to-s3 functions",
   "main": "index.js",
