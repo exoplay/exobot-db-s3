@@ -31,4 +31,4 @@ You may also need to include "babel-polyfill" for generator support.
 
 ## License
 
-MIT licensed. Copyright 2016 Exoplay, LLC. See LICENSE file for more details.
+LGPL licensed. Copyright 2016 Exoplay, LLC. See LICENSE file for more details.

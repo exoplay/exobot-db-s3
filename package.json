@@ -1,6 +1,6 @@
 {
   "name": "@exoplay/exobot-db-s3",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "exobot save-db-to-s3 functions",
   "main": "s3.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "s3"
   ],
   "author": "Jack Lawson <ajacksified@gmail.com>",
-  "license": "MIT",
+  "license": "LGPL",
   "bugs": {
     "url": "https://github.com/exoplay/exobot-db-s3/issues"
   },
