@@ -1,0 +1,35 @@
+{
+  "name": "exobot-db-s3",
+  "version": "0.0.1",
+  "description": "exobot save-db-to-s3 functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "blueprints -t",
+    "build": "blueprints -p",
+    "watch": "blueprints -p -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exoplay/exobot-db-s3.git"
+  },
+  "keywords": [
+    "exobot",
+    "chat",
+    "bot",
+    "db",
+    "s3"
+  ],
+  "author": "Jack Lawson <ajacksified@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exoplay/exobot-db-s3/issues"
+  },
+  "homepage": "https://github.com/exoplay/exobot-db-s3#readme",
+  "dependencies": {
+    "@r/build": "git://github.com/ajacksified/node-build#679c3f3d47c0916237d55128ece4cc817b489ef8",
+    "aws-sdk": "^2.4.7"
+  },
+  "peerDependencies": {
+    "@exoplay/exobot": "~1.0.0"
+  }
+}
