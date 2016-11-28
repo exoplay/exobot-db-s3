@@ -1,12 +1,11 @@
 {
   "name": "@exoplay/exobot-db-s3",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "exobot save-db-to-s3 functions",
   "main": "s3.js",
   "scripts": {
-    "test": "blueprints -t",
-    "build": "blueprints -p",
-    "watch": "blueprints -p -w"
+    "build": "exobot build -i src/s3.js -o s3.js",
+    "watch": "exobot build -i src/s3.js -o s3.js -w"
   },
   "repository": {
     "type": "git",
@@ -26,11 +25,13 @@
   },
   "homepage": "https://github.com/exoplay/exobot-db-s3#readme",
   "dependencies": {
-    "@r/build": "git://github.com/ajacksified/node-build#679c3f3d47c0916237d55128ece4cc817b489ef8",
     "aws-sdk": "^2.4.7"
   },
   "peerDependencies": {
     "@exoplay/exobot": "3.x",
     "babel-polyfill": "~6.9.1"
+  },
+  "devDependencies": {
+    "@exoplay/exobot-build": "0.0.6"
   }
 }
